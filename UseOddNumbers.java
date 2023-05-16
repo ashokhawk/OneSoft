@@ -18,9 +18,7 @@ public class UseOddNumbers {
 		c.add(6);
 		
 		OddNumbers z=(q) -> {for(int i=0;i<c.size();i++) {
-			if(c[i]%2!=0) {
-				a.add(i);
-			}	
+			
 		}
 		c.forEach(x->System.out.println(x));
 		};
